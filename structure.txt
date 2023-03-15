@@ -1,0 +1,21 @@
+수동생성
+/src/config : 어플리케이션 설정 파일들을 모아놓은 디렉토리
+/src/controllers : 라우팅 로직과 비즈니스 로직을 처리하는 컨트롤러 파일들을 모아놓은 디렉토리
+/src/middlewares : 미들웨어 함수 파일들을 모아놓은 디렉토리
+/src/models : 데이터 모델 파일들을 모아놓은 디렉토리
+/src/routes : 라우팅 파일들을 모아놓은 디렉토리
+/src/services : 서비스 로직을 처리하는 파일들을 모아놓은 디렉토리
+/src/utils : 도우미 함수 파일들을 모아놓은 디렉토리
+/src/interfaces : TypeScript 인터페이스 파일들을 모아놓은 디렉토리
+/public : 정적 파일(css, js, 이미지 등)들을 모아놓은 디렉토리
+/views : HTML 템플릿 파일들을 모아놓은 디렉토리
+/web/components : UI 컴포넌트 파일들을 모아놓은 디렉토리
+/web/pages : 웹 페이지 파일들을 모아놓은 디렉토리
+/web/styles : CSS 파일들을 모아놓은 디렉토리
+/web/images : 이미지 파일들을 모아놓은 디렉토리
+/web/scripts : JavaScript 파일들을 모아놓은 디렉토리
+/test : 테스트 파일들을 모아놓은 디렉토리
+
+자동생성
+/node_modules : npm install 명령어를 사용하여 프로젝트에 필요한 모듈들을 설치할 때 자동으로 생성됩니다. 이 디렉토리는 외부 모듈들의 소스 코드 파일들이 포함되어 있으므로, 소스 코드 관리 시스템(Git 등)에서 제외되어야 합니다.
+/dist : TypeScript 코드를 컴파일하여 생성된 JavaScript 코드들이 위치하는 디렉토리입니다. 이 디렉토리는 tsc 명령어를 사용하여 TypeScript 코드를 컴파일할 때 자동으로 생성됩니다. 이 디렉토리는 빌드된 어플리케이션의 실행 파일이나 배포 파일들이 위치할 수 있습니다.
